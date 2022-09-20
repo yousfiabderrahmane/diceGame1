@@ -1,0 +1,90 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+}
+#num1,
+#num2 {
+  position: absolute;
+  bottom: -37px;
+  left: 0;
+  right: 0;
+  font-family: "Bungee Spice", cursive;
+}
+body {
+  background-color: #055d64;
+  background: linear-gradient(to bottom, #42275a, #734b6d);
+  background-size: 150% 150%;
+  animation: gradient 10s ease infinite;
+}
+
+h1 {
+  margin: 30px;
+  font-family: "Bungee Spice", cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 4rem;
+  color: #391e46;
+}
+.btn {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: #391e46;
+  padding: 20px 25px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.25s;
+  border: 4px solid #ff5f00;
+}
+.btn:hover {
+  transform: scale(1.1);
+}
+p {
+  font-size: 2rem;
+  font-family: "Bungee Spice", cursive;
+
+  text-shadow: 5px 0 #232931;
+}
+
+img {
+  width: 80%;
+  filter: drop-shadow(0px 0px 5px #ff5f00);
+}
+
+footer {
+  margin-top: 12%;
+  color: white;
+  text-align: center;
+  font-family: "Bungee Spice", cursive;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.span1 {
+  animation: upAndDown 2s linear infinite;
+  position: relative;
+}
+@keyframes upAndDown {
+  0%,
+  100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 60px;
+  }
+}
+.span2 {
+  animation: upAndDown 2s linear infinite 0.125s;
+  position: relative;
+}
+.span3 {
+  animation: upAndDown 2s linear infinite 0.25s;
+  position: relative;
+}
