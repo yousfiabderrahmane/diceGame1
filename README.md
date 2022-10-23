@@ -14,3 +14,7 @@ This is a Dice Game created mainly with Javascript, that you can check now on [i
 These are some of the features :
 
 - You can shuffle the dices by clicking on the button at the bottom right of the page.
+
+## upcoming features :
+
+- Responsive .
