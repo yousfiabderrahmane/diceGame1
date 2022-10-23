@@ -15,6 +15,6 @@ These are some of the features :
 
 - You can shuffle the dices by clicking on the button at the bottom right of the page.
 
-## upcoming features :
+## Upcoming Features :
 
-- Responsive .
+- Responsive.
